@@ -81,7 +81,9 @@ nav button {
   text-align: left;
 }
 
-#hero .hero_btn {
+#hero .hero_info .hero_btn {
+  border: none;
+  outline: none;
   border-radius: 8px;
   background: rgb(0, 106, 80);
   padding: 4px 8px;
@@ -100,6 +102,8 @@ nav button {
 
 /* hero section end  */
 
+/* card section start  */
+
 #card {
   /* border: 1px solid black; */
   margin: 50px 110px;
@@ -117,7 +121,7 @@ nav button {
   font-family: Fira Sans;
   font-size: 30px;
   font-weight: 700;
-  line-height: 48px;
+  line-height: 38px;
   text-align: left;
   margin-bottom: 32px;
 }
@@ -155,3 +159,150 @@ nav button {
   line-height: 17px;
   text-align: left;
 }
+
+/* card section end  */
+
+/* future section start  */
+
+#future {
+  margin: 50px 110px;
+  width: 1048px;
+}
+
+#future .future_title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+}
+
+#future .future_description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 22px 0;
+}
+
+#future .future_item_box {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#future .future_item_box .future_item {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  padding: 24px;
+  width: 300px;
+}
+
+#future .future_item_box .color1 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+
+#future .future_item_box .color2 {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
+}
+
+#future .future_item_box .future_item img {
+  width: 55px;
+  height: 55px;
+  margin: 2px 2px;
+}
+
+#future .future_item_box .future_item .future_item_title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+#future .future_item_box .future_item .future_item_info {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+}
+
+#future .future_item_box .future_item .future_item_btn {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: rgb(84, 144, 245);
+  padding: 5px 15px;
+  margin-top: 8px;
+}
+
+#future .future_item_box .future_item .btn_color1 {
+  background: rgb(9, 161, 92);
+}
+
+#future .future_item_box .future_item .btn_color2 {
+  background: rgb(255, 194, 57);
+}
+
+article {
+  margin-top: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 38px 24px;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
+}
+
+article .article_info {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+}
+
+article .article_person_name {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+article .article_person_bio {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* future section end */
+
+/* Your Opinion Matters section start */
+
+#opinion_box{
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+/* Your Opinion Matters section end */
