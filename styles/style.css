@@ -9,6 +9,8 @@ body {
   background: rgb(245, 245, 245);
 }
 
+/* nav section start  */
+
 nav {
   width: 1028px;
   height: 70px;
@@ -43,3 +45,113 @@ nav button {
   cursor: pointer;
 }
 
+/* nav section end  */
+
+/* hero section start  */
+
+#hero {
+  width: 852px;
+  height: 150px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+}
+
+#nav .hero_subtitle {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#hero .hero_title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  text-align: left;
+}
+
+#hero .hero_btn {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 4px 8px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+}
+
+#hero img {
+  width: 300px;
+  height: 226px;
+}
+
+/* hero section end  */
+
+#card {
+  /* border: 1px solid black; */
+  margin: 50px 110px;
+  width: 1048px;
+}
+
+#card .card_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#card .card_title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+#card .card_box {
+  height: auto;
+  width: 220px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 24px;
+}
+
+#card .card_box img {
+  width: 55px;
+  height: 55px;
+  margin: 2px 2px;
+}
+
+#card .card_box .cardsBox_subtitle {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+#card .card_box .cardsBox_description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
