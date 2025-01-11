@@ -298,11 +298,123 @@ article .article_person_bio {
 
 /* future section end */
 
-/* Your Opinion Matters section start */
+/* news section start */
 
-#opinion_box{
-    text-align: center;
-    font-weight: 900;
-    font-size: 30px;
+#news {
+  margin: 50px 110px;
+  width: 1048px;
 }
-/* Your Opinion Matters section end */
+
+#news .news_title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#news .news_description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px 0px;
+}
+
+#news .satelite_section {
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+#news .satelite_section .satelite_img img {
+  width: 350px;
+  height: 230px;
+  background-size: cover;
+  border-radius: 24px;
+}
+
+#news .satelite_section .satelite_info {
+  text-align: left;
+  width: 600px;
+}
+
+#news .satelite_section .satelite_info .satelite_info_title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#news .satelite_section .satelite_info img {
+  width: 100px;
+  height: 30px;
+  margin: 10px 0px;
+}
+
+#news .satelite_section .satelite_info .satelite_info_date_time {
+  display: flex;
+}
+
+#news
+  .satelite_section
+  .satelite_info
+  .satelite_info_date_time
+  .satelite_info_date {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#news
+  .satelite_section
+  .satelite_info
+  .satelite_info_date_time
+  .satelite_info_time {
+  margin-left: 20px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#news .satelite_section .satelite_info .satelite_info_description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#news .satelite_section .satelite_info .satelite_info_btn {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 22px;
+text-align: left;
+padding: 8px 30px;
+margin-top: 15px;
+}
