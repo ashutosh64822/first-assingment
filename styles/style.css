@@ -410,11 +410,99 @@ article .article_person_bio {
   border-radius: 8px;
   background: rgb(0, 106, 80);
   color: rgb(255, 255, 255);
-font-family: Fira Sans;
-font-size: 15px;
-font-weight: 600;
-line-height: 22px;
-text-align: left;
-padding: 8px 30px;
-margin-top: 15px;
+  font-family: Fira Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  padding: 8px 30px;
+  margin-top: 15px;
 }
+
+/* donate section start */
+
+#donate {
+  margin: 50px 110px;
+  width: 1048px;
+  text-align: center;
+}
+
+#donate .donate_title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#donate .donate_info {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+}
+
+#donate .donate_amount {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#donate .donate_amount .donate_box {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+}
+
+#donate .donate_amount .donate_box .donate_box_amount {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 20px;
+}
+
+#donate .donate_amount .donate_box .color {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+}
+
+#donate input {
+  display: block;
+  outline: none;
+  border: none;
+  padding: 18px;
+  width: 840px;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  margin:20px auto;
+}
+
+#donate .donate_btn {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 15px 30px;
+}
+
+/* donate section end */
