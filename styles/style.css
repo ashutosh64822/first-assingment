@@ -123,7 +123,6 @@ nav button:hover {
 /* card section start  */
 
 #card {
-  /* border: 1px solid black; */
   margin: 50px 110px;
   width: 1048px;
 }
@@ -518,12 +517,6 @@ article .article_person_bio {
   text-align: left;
   padding: 20px;
 }
-
-/* #donate .donate_amount .donate_box .color {
-  border: 1px solid rgba(14, 14, 14, 0.15);
-  border-radius: 16px;
-  background: rgb(198, 228, 214);
-} */
 
 #donate input {
   display: block;
