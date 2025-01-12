@@ -43,6 +43,13 @@ nav button {
   text-align: left;
   padding: 5px 24px;
   cursor: pointer;
+  transition: 0.6s;
+}
+
+nav button:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 106, 80);
+    transform: scale(1.1);
 }
 
 /* nav section end  */
@@ -89,10 +96,20 @@ nav button {
   padding: 4px 8px;
   color: rgb(255, 255, 255);
   font-family: Fira Sans;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
-  line-height: 20px;
+  line-height: 16px;
   text-align: left;
+  cursor: pointer;
+  transition: 0.4s;
+  border-bottom:2px solid transparent;
+}
+
+#hero .hero_info .hero_btn:hover{
+    transform: scale(1.1);
+    background: rgb(81, 134, 110);
+    /* color: rgb(14, 14, 14); */
+    border-bottom: 2px solid black;
 }
 
 #hero img {
@@ -127,13 +144,19 @@ nav button {
 }
 
 #card .card_box {
-  height: auto;
-  width: 220px;
+  height: 200px;
+  width: 250px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
   padding: 24px;
+  transition: 0.9s;
+  cursor: pointer;
+}
+
+#card .card_box:hover{
+    background-color: rgb(181, 166, 166);
 }
 
 #card .card_box img {
@@ -145,16 +168,16 @@ nav button {
 #card .card_box .cardsBox_subtitle {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 30px;
   text-align: left;
 }
 
 #card .card_box .cardsBox_description {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 17px;
   text-align: left;
@@ -181,10 +204,9 @@ nav button {
 #future .future_description {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0%;
+  line-height: 16px;
   text-align: left;
   margin: 22px 0;
 }
@@ -193,7 +215,6 @@ nav button {
   padding: 5px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 #future .future_item_box .future_item {
@@ -225,18 +246,18 @@ nav button {
 #future .future_item_box .future_item .future_item_title {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 30px;
   text-align: left;
 }
 
 #future .future_item_box .future_item .future_item_info {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 16px;
   text-align: left;
 }
 
@@ -271,28 +292,27 @@ article {
 article .article_info {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 16px;
   text-align: left;
 }
 
 article .article_person_name {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 30px;
   text-align: left;
 }
 
 article .article_person_bio {
   color: rgba(14, 14, 14, 0.6);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0%;
+  line-height: 16px;
   text-align: left;
 }
 
@@ -311,17 +331,15 @@ article .article_person_bio {
   font-size: 30px;
   font-weight: 700;
   line-height: 38px;
-  letter-spacing: 0%;
   text-align: left;
 }
 
 #news .news_description {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0%;
+  line-height: 16px;
   text-align: left;
   margin: 10px 0px;
 }
@@ -358,8 +376,8 @@ article .article_person_bio {
 }
 
 #news .satelite_section .satelite_info img {
-  width: 100px;
-  height: 30px;
+  width: 110px;
+  height: 35px;
   margin: 10px 0px;
 }
 
@@ -374,10 +392,9 @@ article .article_person_bio {
   .satelite_info_date {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0%;
+  line-height: 16px;
   text-align: left;
 }
 
@@ -389,9 +406,9 @@ article .article_person_bio {
   margin-left: 20px;
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 16px;
   letter-spacing: 0%;
   text-align: left;
 }
@@ -399,11 +416,11 @@ article .article_person_bio {
 #news .satelite_section .satelite_info .satelite_info_description {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0%;
+  line-height: 16px;
   text-align: left;
+  padding-top: 10px;
 }
 
 #news .satelite_section .satelite_info .satelite_info_btn {
@@ -433,16 +450,15 @@ article .article_person_bio {
   font-size: 30px;
   font-weight: 700;
   line-height: 38px;
-  letter-spacing: 0%;
   text-align: center;
 }
 
 #donate .donate_info {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 16px;
   text-align: center;
 }
 
@@ -466,7 +482,6 @@ article .article_person_bio {
   font-size: 30px;
   font-weight: 700;
   line-height: 38px;
-  letter-spacing: 0%;
   text-align: left;
   padding: 20px;
 }
@@ -530,9 +545,9 @@ article .article_person_bio {
 #subscribe .subscribe_info {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 16px;
 }
 
 #subscribe .subscribe_input_section {
@@ -566,15 +581,15 @@ article .article_person_bio {
   font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
-  line-height: 22px;
+  line-height: 30px;
 }
 
 #subscribe p {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 14px;
+  line-height: 16px;
 }
 
 /* subscribe section end */
@@ -595,13 +610,13 @@ footer section h1 {
   padding: 30px;
 }
 
-footer section .footer_logo_section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer section .footer_logo_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-footer section .footer_logo{
-    padding: 5px;
-    margin: 20px;
+footer section .footer_logo {
+  padding: 5px;
+  margin: 20px;
 }
