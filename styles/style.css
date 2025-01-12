@@ -489,7 +489,7 @@ article .article_person_bio {
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
-  margin:20px auto;
+  margin: 20px auto;
 }
 
 #donate .donate_btn {
@@ -506,3 +506,102 @@ article .article_person_bio {
 }
 
 /* donate section end */
+
+/* subscribe section start */
+
+#subscribe {
+  margin: 50px 110px;
+  width: 1048px;
+  text-align: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  padding: 50px 0px;
+}
+
+#subscribe .subscribe_title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 38px;
+  margin: 10px;
+}
+
+#subscribe .subscribe_info {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+#subscribe .subscribe_input_section {
+  width: 600px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#subscribe .subscribe_input_section input {
+  border: none;
+  outline: none;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  padding: 15px 25px;
+  width: 62%;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+#subscribe .subscribe_input_section .subscribe_input_button {
+  border-radius: 0px 8px 8px 0px;
+  outline: none;
+  border: none;
+  background: rgb(0, 106, 80);
+  width: 35%;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+#subscribe p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+/* subscribe section end */
+
+/* footer section start  */
+
+footer section {
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+
+footer section h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  padding: 30px;
+}
+
+footer section .footer_logo_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer section .footer_logo{
+    padding: 5px;
+    margin: 20px;
+}
