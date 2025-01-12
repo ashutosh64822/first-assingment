@@ -46,10 +46,10 @@ nav button {
   transition: 0.6s;
 }
 
-nav button:hover{
-    color: rgb(255, 255, 255);
-    background: rgb(0, 106, 80);
-    transform: scale(1.1);
+nav button:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 106, 80);
+  transform: scale(1.1);
 }
 
 /* nav section end  */
@@ -102,14 +102,15 @@ nav button:hover{
   text-align: left;
   cursor: pointer;
   transition: 0.4s;
-  border-bottom:2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
-#hero .hero_info .hero_btn:hover{
-    transform: scale(1.1);
-    background: rgb(81, 134, 110);
-    /* color: rgb(14, 14, 14); */
-    border-bottom: 2px solid black;
+#hero .hero_info .hero_btn:hover {
+  color: #fff;
+  font-weight: 500;
+  transform: scale(1.1);
+  background: rgb(81, 134, 110);
+  border-bottom: 2px solid black;
 }
 
 #hero img {
@@ -144,7 +145,7 @@ nav button:hover{
 }
 
 #card .card_box {
-  height: 200px;
+  height: 250px;
   width: 250px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -155,8 +156,8 @@ nav button:hover{
   cursor: pointer;
 }
 
-#card .card_box:hover{
-    background-color: rgb(181, 166, 166);
+#card .card_box:hover {
+  background-color: rgb(181, 166, 166);
 }
 
 #card .card_box img {
@@ -268,6 +269,15 @@ nav button:hover{
   background: rgb(84, 144, 245);
   padding: 5px 15px;
   margin-top: 8px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+}
+
+#future .future_item_box .future_item .future_item_btn:hover {
+  transform: scale(1.1);
+  background: rgb(81, 134, 110);
+  border-bottom: 2px solid black;
 }
 
 #future .future_item_box .future_item .btn_color1 {
@@ -287,6 +297,8 @@ article {
   padding: 38px 24px;
   background-image: url(../assets/quote-bg.png);
   background-repeat: no-repeat;
+  background-position-x: 2.4%;
+  background-position-y: 10.4%;
 }
 
 article .article_info {
@@ -305,6 +317,7 @@ article .article_person_name {
   font-weight: 600;
   line-height: 30px;
   text-align: left;
+  margin: 10px 0px;
 }
 
 article .article_person_bio {
@@ -424,6 +437,8 @@ article .article_person_bio {
 }
 
 #news .satelite_section .satelite_info .satelite_info_btn {
+  border: none;
+  outline: none;
   border-radius: 8px;
   background: rgb(0, 106, 80);
   color: rgb(255, 255, 255);
@@ -434,6 +449,17 @@ article .article_person_bio {
   text-align: left;
   padding: 8px 30px;
   margin-top: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-bottom: 2px solid transparent;
+}
+
+#news .satelite_section .satelite_info .satelite_info_btn:hover {
+  color: #fff;
+  font-weight: 500;
+  transform: scale(1.1);
+  background: rgb(81, 134, 110);
+  border-bottom: 2px solid black;
 }
 
 /* donate section start */
@@ -476,6 +502,13 @@ article .article_person_bio {
   background: rgb(255, 255, 255);
 }
 
+#donate .donate_amount .donate_box:hover {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  cursor: pointer;
+}
+
 #donate .donate_amount .donate_box .donate_box_amount {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
@@ -486,11 +519,11 @@ article .article_person_bio {
   padding: 20px;
 }
 
-#donate .donate_amount .donate_box .color {
+/* #donate .donate_amount .donate_box .color {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(198, 228, 214);
-}
+} */
 
 #donate input {
   display: block;
@@ -518,6 +551,15 @@ article .article_person_bio {
   border-radius: 8px;
   background: rgb(0, 106, 80);
   padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-bottom:2px solid transparent;
+}
+
+#donate .donate_btn:hover {
+    transform: scale(1.1);
+    background: rgb(81, 134, 110);
+    border-bottom: 2px solid black;
 }
 
 /* donate section end */
@@ -555,6 +597,14 @@ article .article_person_bio {
   margin: 10px auto;
   display: flex;
   justify-content: space-between;
+  transition: 0.4s;
+  border-bottom:2px solid transparent;
+}
+
+#subscribe .subscribe_input_section:hover {
+    transform: scale(1.1);
+    border-radius: 8px 0px 9px 8px;
+    border-bottom: 2px solid black;
 }
 
 #subscribe .subscribe_input_section input {
@@ -582,6 +632,7 @@ article .article_person_bio {
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
+  cursor: pointer;
 }
 
 #subscribe p {
